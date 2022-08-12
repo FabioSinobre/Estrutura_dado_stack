@@ -36,3 +36,17 @@ function Stack() {
         console.log(items.toString())
     }
 }
+
+//instancia obj
+var stack = new Stack()
+        stack.push(2)
+        stack.push(4)
+        stack.push(6)
+        stack.push(8)
+        stack.push(10)
+
+console.log(stack.peek())
+console.log(stack.size())
+console.log(stack.pop())
+console.log(stack.isEmpty())
+console.log(stack.print())
